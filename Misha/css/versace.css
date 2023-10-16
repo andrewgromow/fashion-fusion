@@ -35,7 +35,7 @@ main>div:nth-child(1)>div p:not(:nth-child(1)) {
     padding-top: 80px;
 }
 
-.b_rand a:first-child {
+.b_rand a:nth-child(5) {
     border-bottom: 1px solid #010522;
     border-radius: 15px;
 }

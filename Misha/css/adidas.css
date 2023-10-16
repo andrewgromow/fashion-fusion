@@ -31,11 +31,15 @@ main>div:nth-child(1)>div {
 
 }
 
-main>div:nth-child(1)>div p:not(:nth-child(1)) {
+main>div:nth-child(1)> div p:not(:nth-child(1)){
     padding-top: 80px;
 }
-
-.b_rand a:first-child {
-    border-bottom: 1px solid #010522;
-    border-radius: 15px;
+.b_rand a:nth-child(2){
+border-bottom: 1px solid #010522;
+border-radius: 15px;
 }
+
+
+
+
+
