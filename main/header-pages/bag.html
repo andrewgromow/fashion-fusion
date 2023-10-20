@@ -5,17 +5,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CLOTHING STORE</title>
-	<link rel="stylesheet" href="./main.css">
-	<link rel="stylesheet" href="./css/all.css">
+	<link rel="stylesheet" href="../header-css/bag.css">
+	<link rel="stylesheet" href="../css/all.css">
 </head>
 
 <body>
 	<header>
 		<nav>
 			<div class="logo">
-				<img src="./logo.png" alt="logo">
+				<img src="../logo.png" alt="logo">
 			</div>
-			<span><a href="#About_us">FashionFusion</a></span>
+			<span><a href="../main.html">FashionFusion</a></span>
 			<span>
 				<a href="#">Одяг</a>
 				<a href="#">Взуття</a>
@@ -23,37 +23,56 @@
 			</span>
 			<span>
 				<a href="#">Профіль</a>
-				<a href="./header-pages/bag.html">Кошик</a>
+				<a href="#">Кошик</a>
 			</span>
 		</nav>
 	</header>
 
 
-	<main>
-
-		<div class="welcome"><img src="./img/welcome.jpg" alt="welcome"></div>
-		<article class="NEW">
-			<h2>Новинка<h2>
-
-				<div>
-					<a href="#"><img src="./img/t-shirt.png" alt="T-shirts"></a>
-					<a href="#"><img src="./img/t-shirt.png" alt="T-shirts"></a>
-					<a href="#"><img src="./img/t-shirt.png" alt="T-shirts"></a>
+	<main> <!-- Надо почистить(div) --> 
+		<div class="bag-container">
+		  	<div class="bag-column">
+			  	<div class="my-bag-top">
+			  		<span class="top-bag-text">
+						<a class="top-bag-title">MY BAG</a>
+						<a class="top-some-text">Some text...</a>
+			  		</span>
 				</div>
-		</article>
-	</main>
-
-	<footer>
-		<div id="brand">
-			<div class="b_rand">
-				<a href="./html/nike.html"><img src="./img/logo1.png" alt="Nike"></a>
-				<a href="./html/adidas.html"><img src="./img/logo2.png" alt="Adidas"></a>
-				<a href="./html/gucci.html"><img src="./img/logo3.png" alt="GUCCI"></a>
-				<a href="./html/lacoste.html"><img src="./img/logo4.png" alt="LACOSTE"></a>
-				<a href="./html/versace.html"><img src="./img/logo5.png" alt="VERSACE"></a>
-				<a href="./html/levis.html"><img src="./img/logo6.png" alt="LEVIS"></a>
+				<div class="cards-middle">
+					<span class="middle-cards-text">
+						<div class="close-button">&#10006;</div>
+						<img src="../img/t-shirt.png" alt="T-shirts">
+						<div class="text-details">
+							<a class="cost">10$</a>
+							<a class="description">FF DESIGN t-shirt in сoral white gray colors</a>
+						</div>
+					</span>
+				</div>
+			  	<div class="my-bag-bottom">
+			  		<span class="bottom-bag-text">
+						<a class="bottom-sub-total">SUB-TOTAL</a>
+						<a class="bottom-cost">10.00$</a>
+			  		</span>
+				</div>
+		  	</div>
+		  	<div class="total-right">
+				<span class="right-total-text">
+				  	<a class="total-title">TOTAL</a>
+				  	<span class="sub-total-cost">
+						<a class="right-sub-total">Sub-total</a>
+						<a class="total-cost">10.00$</a>  
+			  		</span>
+				  	<button class="checkout-button">CHECKOUT</button>
+				  	<a>WE ACCEPT:</a>
+				  	<img class="credits" src="../img/credits.png" alt="credits">
+				  	<a>Got a discount code? Add it in the next step.</a>
+				</span>
 			</div>
 		</div>
+	  </main>
+
+	<footer>
+		
 
 		<div class="inf">
 			<div class="Contact">
@@ -65,9 +84,9 @@
 
 
 				<div class="meseg">
-					<a href="https://www.instagram.com/misha_mag_/"><img src="./img/insta.png" alt="instagram"></a>
-					<a href="#"><img src="./img/telegram.png" alt="telegram"></a>
-					<a href="#"><img src="./img/face.png" alt="facebook"></a>
+					<a href="https://www.instagram.com/misha_mag_/"><img src="../img/insta.png" alt="instagram"></a>
+					<a href="#"><img src="../img/telegram.png" alt="telegram"></a>
+					<a href="#"><img src="../img/face.png" alt="facebook"></a>
 				</div>
 
 			</div>
