@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../css/all.css" />
-    <link rel="stylesheet" href="../css/nike.css" />
+    <link rel="stylesheet" href="/fashion-fusion/main/css/all.css" />
+    <link rel="stylesheet" href="/fashion-fusion/main/header-css/reg.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FashionFusion</title>
@@ -22,24 +22,39 @@
           <a href="#">Сумки</a>
         </span>
         <span>
-          <a href="/fashion-fusion/main/header-pages/reg.html">Реєстрація</a>
-          <a href="/fashion-fusion/main/header-pages/bag.html">Кошик</a>
+          <a href="reg.html">Реєстрація</a>
+          <a href="bag.html">Кошик</a>
         </span>
       </nav>
     </header>
     <main>
-      <div>
-        <div>
-          <h2>~~Фільтри~~</h2>
-          <p><a href="#">Футболки</a></p>
-          <p><a href="#">Шорти</a></p>
-          <p><a href="#">Взуття</a></p>
-          <p><a href="#">Розмір</a></p>
-          <p><a href="#">Кольор</a></p>
-          <p><a href="#">Ціна</a></p>
-        </div>
-      </div>
-      <div></div>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+        </head>
+        <body>
+          <div class="registration-form">
+            <h1>Реєстрація</h1>
+            <form action="обработчик_регистрации.php" method="post">
+              <label for="name">Ім'я:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Електронна адреса:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="password">Пароль:</label>
+              <input type="password" id="password" name="password" required />
+
+              <button type="submit">Зареєструватись</button>
+            </form>
+          </div>
+        </body>
+      </html>
     </main>
 
     <footer>
